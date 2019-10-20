@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 import Container from '@material-ui/core/Container';
-import Image from '../shared/Image';
+import Image from '../../shared/Image';
 
 
 const PageTitle = styled.div`
