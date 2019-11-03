@@ -31,9 +31,10 @@ const dotArr = [
   { key: 1 }, { key: 2 }, { key: 3 }
 ]
 const BoldTypography = styled.div`
-  font-weight: 600;
+  font-family: 'BwNistaGeo-Bd';  
   padding-top: 20px;
   padding-bottom:5px;
+  font-size: 18px;
 `;
 
 const MainDiv = styled.div`

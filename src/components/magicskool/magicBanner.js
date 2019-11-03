@@ -5,7 +5,7 @@ import Image from '../../shared/Image';
 
 
 const PageTitle = styled.div`
-	font-family: Bw Nista Geometric;
+  font-family: 'BwNistaGeo-Bd';
 	font-size: 48px;
 	line-height: 63px;
 `;
@@ -18,6 +18,9 @@ const BannerText = styled.div`
 	/* background-color: #ddd; */
 	flex: 1;
 	font-size: 36px;
+	@media only screen and (max-width: 767px) {
+		font-size: 18px;
+	}
 `;
 
 const BannerImage = styled.div`

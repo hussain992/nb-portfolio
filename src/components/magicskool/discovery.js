@@ -16,9 +16,13 @@ const TabBlock = styled.div`
   padding: 20px 0px; 
 `;
 const Title = styled.div`
-
+  font-family: 'BwNistaGeo-Bk';
+  font-size: 22px;
+  padding-top: 15px;
 `;
+// const StyledMyTab = styled(MyTab)`
 
+// `;
 
 
 class discovery extends Component {
@@ -42,8 +46,8 @@ class discovery extends Component {
               value={activeIndex}
               onChange={this.handleChange}
             >
-              <MyTab label='Research' />
-              <MyTab label='item two' />
+              <MyTab style={{fontFamily: 'BwNistaGeo-Md'}} label='Research' />
+              <MyTab style={{fontFamily: 'BwNistaGeo-Md'}} label='User Research Findings' />
             </VerticalTabs>
 
             {activeIndex === 0 && <TabContainer><ResearchTab/></TabContainer>}
@@ -65,6 +69,7 @@ const VerticalTabs = withStyles(theme => ({
 }))(Tabs)
 
 const MyTab = withStyles(theme => ({
+  // font-family: 'BwNistaGeo-Md';
   selected: {
     color: '#2B3EED',
     borderBottom: '2px solid #2B3EED',

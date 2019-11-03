@@ -1,8 +1,34 @@
+@font-face {
+  font-family: 'BwNistaGeo-Th';
+  src: local('BwNistaGeo-Th'), url(./assets/fonts/BwNistaGeo-Th.woff) format('woff');
+}
+@font-face {
+  font-family: 'BwNistaGeo-Lt';
+  src: local('BwNistaGeo-Lt'), url(./assets/fonts/BwNistaGeo-Lt.woff) format('woff');
+}
+@font-face {
+  font-family: 'BwNistaGeo-Rg';
+  src: local('BwNistaGeo-Rg'), url(./assets/fonts/BwNistaGeo-Rg.woff) format('woff');
+}
+@font-face {
+  font-family: 'BwNistaGeo-Md';
+  src: local('BwNistaGeo-Md'), url(./assets/fonts/BwNistaGeo-Md.woff) format('woff');
+}
+@font-face {
+  font-family: 'BwNistaGeo-Bd';
+  src: local('BwNistaGeo-Bd'), url(./assets/fonts/BwNistaGeo-Bd.woff) format('woff');
+}
+@font-face {
+  font-family: 'BwNistaGeo-Bk';
+  src: local('BwNistaGeo-Bk'), url(./assets/fonts/BwNistaGeo-Bk.woff) format('woff');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
+  font-family: 'BwNistaGeo-Rg';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

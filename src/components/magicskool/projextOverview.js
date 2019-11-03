@@ -8,10 +8,11 @@ const MainDiv = styled.div`
 `;
 
 const Title = styled.div`
-  font-family: Bw Nista Geometric;
+  font-family: 'BwNistaGeo-Bk';
   font-size: 22px;
   line-height: 30px;
   padding-bottom: 30px;
+  padding-top: 15px;
 `;
 
 const Row = styled.div`
@@ -20,7 +21,7 @@ const Row = styled.div`
 `;
 
 const Subtitle = styled.div`
-  font-family: Bw Nista Geometric;
+  font-family: 'BwNistaGeo-Bd';
   font-size: 18px;
   line-height: 30px;
   color: #1F2234;
@@ -29,7 +30,7 @@ const Subtitle = styled.div`
 `;
 
 const DescTitle = styled.div`
-  font-family: Bw Nista Geometric;
+  font-family: 'BwNistaGeo-Bd';
   font-size: 18px;
   line-height: 30px;
   color: #1F2234;
@@ -38,7 +39,6 @@ const DescTitle = styled.div`
 `;
 
 const Description = styled.div`
-  font-family: Bw Nista Geometric;
   font-size: 18px;
   line-height: 30px;
   color: #2F2F2F;
